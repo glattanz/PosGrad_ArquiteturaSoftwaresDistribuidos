@@ -22,11 +22,11 @@ export function useMovies() {
 
 export function useMovie(movieId) {
 
-    const [movie, setMovie] = useState([]);
+    const [movie, setMovie] = useState({});
     
     useEffect(() => {
         getMovieDetails(movieId).then(response => {
-            setMovie([response.data]);
+            setMovie(response.data);
         });
     }, [movieId]);
 

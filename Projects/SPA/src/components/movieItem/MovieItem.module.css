@@ -1,0 +1,18 @@
+.movie {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.movieDetails {
+    font-weight: bold;
+    color: darkblue;
+    text-decoration: none;
+}
+
+.movieDetails:hover {
+    color: blue;
+}
